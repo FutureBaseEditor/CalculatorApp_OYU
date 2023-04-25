@@ -6,13 +6,13 @@
         {
             Console.WriteLine("Hesap Makinesi");
             Console.Write("Birinci Sayıyı Giriniz: ");
-            double sayi1 = double.Parse(Console.ReadLine());
+            double num1 = double.Parse(Console.ReadLine());
 
             Console.Write("İkinci Sayıyı Giriniz: ");
-            double sayi2 = double.Parse(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine());
 
             Console.Write("İşlem türü seçiniz: ");
-            string islem = Console.ReadLine();
+            string operation = Console.ReadLine().ToLower();
         }
     }
 }
