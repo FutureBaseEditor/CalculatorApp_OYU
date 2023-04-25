@@ -11,7 +11,7 @@
             Console.Write("İkinci Sayıyı Giriniz: ");
             double secondNumber = double.Parse(Console.ReadLine());
 
-            Console.Write("İşlem türü seçiniz: ");
+            Console.Write("İşlem Türü Seçiniz: ");
             string operationType = Console.ReadLine().ToLower();
         }
     }
