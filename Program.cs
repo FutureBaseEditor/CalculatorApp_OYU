@@ -11,7 +11,7 @@
             Console.Write("İkinci Sayıyı Giriniz: ");
             double sayi2 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("İşlem türü seçiniz: ");
+            Console.Write("İşlem türü seçiniz: ");
             string islem = Console.ReadLine();
         }
     }
