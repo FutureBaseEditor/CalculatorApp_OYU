@@ -6,10 +6,10 @@
         {
             Console.WriteLine("Hesap Makinesi");
             Console.Write("Birinci Sayıyı Giriniz: ");
-            double num1 = double.Parse(Console.ReadLine());
+            double firstNumber = double.Parse(Console.ReadLine());
 
             Console.Write("İkinci Sayıyı Giriniz: ");
-            double num2 = double.Parse(Console.ReadLine());
+            double secondNumber = double.Parse(Console.ReadLine());
 
             Console.Write("İşlem türü seçiniz: ");
             string operationType = Console.ReadLine().ToLower();
