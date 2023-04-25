@@ -5,6 +5,14 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hesap Makinesi");
+            Console.Write("Birinci Sayıyı Giriniz: ");
+            double sayi1 = double.Parse(Console.ReadLine());
+
+            Console.Write("İkinci Sayıyı Giriniz: ");
+            double sayi2 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("İşlem türü seçiniz: ");
+            string islem = Console.ReadLine();
         }
     }
 }
