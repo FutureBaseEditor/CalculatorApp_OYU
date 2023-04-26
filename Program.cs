@@ -13,6 +13,16 @@
 
             Console.Write("İşlem Türü Seçiniz: ");
             string operationType = Console.ReadLine().ToLower();
+
+            
+            if (operationType == "topla" || operationType == "+")
+            {
+                Console.WriteLine("İşlem Sonucu: " + (firstNumber + secondNumber));
+            }
+            else
+            {
+                Console.WriteLine("Hatalı İşlem!");
+            }
         }
     }
 }
