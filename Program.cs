@@ -19,10 +19,7 @@
             {
                 Console.WriteLine("İşlem Sonucu: " + (firstNumber + secondNumber));
             }
-            else
-            {
-                Console.WriteLine("Hatalı İşlem!");
-            }
+           
         }
     }
 }
