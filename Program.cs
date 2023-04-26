@@ -19,7 +19,13 @@
             {
                 Console.WriteLine("İşlem Sonucu: " + (firstNumber + secondNumber));
             }
-           
+
+            if (operationType == "*" || operationType == "çarp" || operationType == "çarpma")
+            {
+                Console.WriteLine("Sonuc : " + (firstNumber * secondNumber));
+            }
+
+
         }
     }
 }
