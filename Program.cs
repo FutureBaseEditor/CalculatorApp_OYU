@@ -28,8 +28,9 @@
 
             if (operationType == "*" || operationType == "çarp" || operationType == "çarpma")
             {
-                Console.WriteLine("{0} x {1} = {2}", firstNumber, secondNumber, (firstNumber * secondNumber));
+                Console.WriteLine("{0} x {1} = {2}" , firstNumber, secondNumber, (firstNumber * secondNumber));
             }
+
 
         }
     }
