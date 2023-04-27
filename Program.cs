@@ -20,13 +20,13 @@
                 Console.WriteLine("{0} + {1} = {2}", firstNumber, secondNumber, (firstNumber + secondNumber));
             }
             
-            if (operationType == "-" || operationType == "çıkar" || operationType == "çıkarma")
+            else if (operationType == "-" || operationType == "çıkar" || operationType == "çıkarma")
             {
                 Console.WriteLine("{0} - {1} = {2}", firstNumber, secondNumber, (firstNumber - secondNumber));
                 
             }
 
-            if (operationType == "*" || operationType == "çarp" || operationType == "çarpma")
+            else if (operationType == "*" || operationType == "çarp" || operationType == "çarpma")
             {
                 Console.WriteLine("{0} x {1} = {2}" , firstNumber, secondNumber, (firstNumber * secondNumber));
             }
