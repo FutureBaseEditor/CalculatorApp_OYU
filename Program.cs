@@ -20,7 +20,7 @@
                 Console.WriteLine("İşlem Sonucu: " + (firstNumber + secondNumber));
             }
             
-            if (operationType == "-" || operationType == "çıkar" || operationType == "çıkartma")
+            if (operationType == "-" || operationType == "çıkar" || operationType == "çıkarma")
             {
                 Console.WriteLine("{0} - {1} = {2}", firstNumber, secondNumber, (firstNumber - secondNumber));
                 
