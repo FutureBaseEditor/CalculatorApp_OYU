@@ -15,9 +15,9 @@
             string operationType = Console.ReadLine().ToLower();
 
             
-            if (operationType == "topla" || operationType == "+")
+            if (operationType == "topla" || operationType == "+" || operationType == "toplama")
             {
-                Console.WriteLine("İşlem Sonucu: " + (firstNumber + secondNumber));
+                Console.WriteLine("{0} + {1} = {2}", firstNumber, secondNumber, (firstNumber + secondNumber));
             }
            
         }
