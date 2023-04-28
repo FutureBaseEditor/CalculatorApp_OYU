@@ -28,6 +28,11 @@
                 Console.WriteLine("{0} / {1} = {2}", firstNumber, secondNumber, (firstNumber / secondNumber));
 
 
+
+
+            else Console.WriteLine("Hatalı İşlem Seçtiniz.");
+
+
         }
     }
 }
