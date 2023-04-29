@@ -27,6 +27,8 @@
             else if (operationType == "/" || operationType == "böl" || operationType == "bölme")
                 Console.WriteLine("{0} / {1} = {2}", firstNumber, secondNumber, (firstNumber / secondNumber));
 
+            else if (operationType == "%" || operationType == "mod" || operationType == "mod alma")
+                Console.WriteLine("{0} % {1} = {2}", firstNumber, secondNumber, (firstNumber % secondNumber));
 
         }
     }
