@@ -7,7 +7,7 @@
             Console.WriteLine("Hesap Makinesi");
             while (true)
             {
-            Console.Write("Birinci Sayıyı Giriniz: ");
+                Console.Write("Birinci Sayıyı Giriniz: ");
             double firstNumber = double.Parse(Console.ReadLine());
 
             Console.Write("İkinci Sayıyı Giriniz: ");
@@ -33,6 +33,12 @@
                 Console.WriteLine("{0} % {1} = {2}", firstNumber, secondNumber, (firstNumber % secondNumber));
 
             else Console.WriteLine("Hatalı İşlem Seçtiniz.");
+                          
+            Console.WriteLine("Devam Etmek İçin Entera , Çıkış Yapmak İçin 'Q' Tusuna Basınız");
+            string quit = Console.ReadLine();
+
+             if (quit == "q" || quit == "Q") break;
+
             }
 
         }
