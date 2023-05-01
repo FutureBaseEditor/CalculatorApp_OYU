@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hesap Makinesi");
+            while (true)
+            {
             Console.Write("Birinci Sayıyı Giriniz: ");
             double firstNumber = double.Parse(Console.ReadLine());
 
@@ -30,10 +32,8 @@
             else if (operationType == "%" || operationType == "mod" || operationType == "mod alma")
                 Console.WriteLine("{0} % {1} = {2}", firstNumber, secondNumber, (firstNumber % secondNumber));
 
-
-
             else Console.WriteLine("Hatalı İşlem Seçtiniz.");
-
+            }
 
         }
     }
