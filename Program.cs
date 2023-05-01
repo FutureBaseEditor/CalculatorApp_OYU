@@ -5,7 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hesap Makinesi");
-            Console.Write("Birinci Sayıyı Giriniz: ");
+            while (true)
+            {
+                Console.Write("Birinci Sayıyı Giriniz: ");
             double firstNumber = double.Parse(Console.ReadLine());
 
             Console.Write("İkinci Sayıyı Giriniz: ");
@@ -30,10 +32,14 @@
             else if (operationType == "%" || operationType == "mod" || operationType == "mod alma")
                 Console.WriteLine("{0} % {1} = {2}", firstNumber, secondNumber, (firstNumber % secondNumber));
 
-
-
             else Console.WriteLine("Hatalı İşlem Seçtiniz.");
+                          
+            Console.WriteLine("Devam Etmek İçin Entera , Çıkış Yapmak İçin 'Q' Tusuna Basınız");
+            string quit = Console.ReadLine();
 
+             if (quit == "q" || quit == "Q") break;
+
+            }
 
         }
     }
